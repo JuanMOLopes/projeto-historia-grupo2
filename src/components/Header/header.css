@@ -18,31 +18,3 @@ header h1 {
   text-align: center;
   margin: 0;
 }
-
-/* Estilo da navegação */
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  background-color: #000000;
-  gap: 40px;
-  width: 50vw; /* Ajustado para manter consistência com o header */
-  margin: 0 auto; /* Centraliza horizontalmente */
-  border-radius: 20px;
-  filter: opacity(85%);
-}
-
-nav a {
-  color: #e7e026;
-  text-decoration: none;
-  font-size: 1.25rem;
-  margin: 0 1.5rem;
-  padding: 0.5rem 0;
-  transition: color 0.3s ease, transform 0.3s ease; /* Transição mais rápida e suave */
-}
-
-nav a:hover {
-  color: #ff0000;
-  transform: scale(1.05); /* Substituído 'scale' para maior compatibilidade */
-}
