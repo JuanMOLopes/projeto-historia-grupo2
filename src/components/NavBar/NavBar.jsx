@@ -1,16 +1,13 @@
-import "./Nav.css";
+import "./Navbar.css";
+
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
     <nav>
-      <a href="/">inicio</a>
-      <a href="/">page 1</a>
-      <a href="/">page 2</a>
-      <a href="/">page 3</a>
-      <a href="/">page 4</a>
-      <a href="/">page 5</a>
-      <a href="/">page 6</a>
-      <a href="/">page 7</a>
+      <Link to="/">Home</Link>
+      <Link to="/sobre">Sobre</Link>
+      <Link to="/contato">Contato</Link>
     </nav>
   );
 }
