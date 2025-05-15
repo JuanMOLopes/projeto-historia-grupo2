@@ -1,28 +1,8 @@
-import './app.css' 
-
-function app() {
+function CriseDe1929() {
     return (
         <>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+     
         </>
     )
 }
-export default app;
+export default CriseDe1929;
