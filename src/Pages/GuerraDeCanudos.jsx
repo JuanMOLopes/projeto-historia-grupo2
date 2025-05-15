@@ -1,8 +1,8 @@
-function guerraDeCanudos() {
-    return (
-        <>
-     
-        </>
-    )
+function GuerraDeCanudos() {
+  return (
+    <>
+      <h1>Teste</h1>
+    </>
+  );
 }
-export default guerraDeCanudos;
+export default GuerraDeCanudos;

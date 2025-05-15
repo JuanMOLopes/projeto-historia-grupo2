@@ -1,8 +1,8 @@
-function favoritos() {
-    return (
-        <>
-     
-        </>
-    )
+function Favoritos() {
+  return (
+    <>
+      <h1>Teste</h1>
+    </>
+  );
 }
-export default favoritos;
+export default Favoritos;

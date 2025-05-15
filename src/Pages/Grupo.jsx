@@ -1,8 +1,8 @@
-function grupo() {
-    return (
-        <>
-     
-        </>
-    )
+function Grupo() {
+  return (
+    <>
+      <h1>Teste</h1>
+    </>
+  );
 }
-export default grupo;
+export default Grupo;
