@@ -1,16 +1,17 @@
-import './App.css'
+import "./App.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home"
-import Video from "./pages/Video"
-import GuerraContestado from "./pages/GuerraContestado"
-import GuerraCanudos from "./pages/GuerraCanudos"
-import Crise29 from "./pages/Crise29"
-import GuerraMundial from "./pages/GuerraMundial"
-import RevolucaoRussa from "./pages/RevolucaoRussa"
-import Fascismo from "./pages/Fascismo"
-import Grupo from "./pages/Grupo"
+import Home from "./pages/Home";
+import GuerraDeCanudos from "./pages/GuerraDeCanudos";
+import GuerraDoContestado from "./pages/GuerraDoContestado";
+import PrimeiraGuerraMundial from "./pages/PrimeiraGuerraMundial";
+import RevolucaoRussa from "./pages/RevolucaoRussa";
+import FascismoItaliano from "./pages/FascismoItaliano";
+import CriseDe1929 from "./pages/CriseDe1929";
+import Video from "./pages/Video";
+import Favoritos from "./pages/Favoritos";
+import Grupo from "./pages/Grupo";
 
 function App() {
   return (
@@ -18,18 +19,25 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Video" element={<Video />} />
-          <Route path="/GuerraContestado" element={<GuerraContestado />} />
-          <Route path="/GuerraCanudos" element={<GuerraCanudos />} />
-          <Route path="/Crise29" element={<Crise29/>} />
-          <Route path="/GuerraMundial" element={<GuerraMundial />} />
-          <Route path="/RevolucaoRussa" element={<RevolucaoRussa  />} />
-          <Route path="/Fascismo" element={<Fascismo />} />
-          <Route path="/Grupo" element={<Grupo/>} />
+          <Route path="/guerra-de-canudos" element={<GuerraDeCanudos />} />
+          <Route
+            path="/guerra-do-contestado"
+            element={<GuerraDoContestado />}
+          />
+          <Route
+            path="/primeira-guerra-mundial"
+            element={<PrimeiraGuerraMundial />}
+          />
+          <Route path="/revolucao-russa" element={<RevolucaoRussa />} />
+          <Route path="/fascismo-italiano" element={<FascismoItaliano />} />
+          <Route path="/crise-de-1929" element={<CriseDe1929 />} />
+          <Route path="/video" element={<Video />} />
+          <Route path="/favoritos" element={<Favoritos />} />
+          <Route path="/grupo" element={<Grupo />} />
         </Routes>
-       </BrowserRouter>
-      </>
-    )
+      </BrowserRouter>
+    </>
+  );
 }
 
-export default App
+export default App;
