@@ -1,79 +1,81 @@
+/* Modo Claro */
 footer {
-  background-color: #e8dddd;
-  padding: 2rem 1rem;
-  width: 47.9vw;
-  /* Deixar o conteudo do container flexivel */
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  /*  Dar espaço */
-  justify-content: space-between;
   align-items: center;
-  /*  Quebrar linha */
-  flex-wrap: wrap;
-  /* Ajusta a distancia */
   gap: 2rem;
-  margin-left: 25rem;
-  border-radius: 20px;
-  filter: opacity(85%);
-  /* Distancia de baixo */
-  margin-bottom: 10px;
+  font-size: 1rem;
+  text-align: center;
 }
 
 footer a {
-  color: #000000;
+  color: #333;
   text-decoration: none;
-  /* muda a cor ao passar o mouse por cima */
-  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 footer img {
   width: 24px;
   height: 24px;
-  margin-right: 0.5rem;
-}
-
-footer p {
-  color: #000000;
-  margin: 0.5rem 0;
-  font-size: 0.9rem;
-}
-
-footer strong {
-  color: #000000;
-  font-weight: 600;
-}
-
-footer div > div {
-  margin-bottom: 1rem;
-}
-
-footer h3 {
-  color: #000000;
-}
-
-footer li {
-  color: #000000;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
 }
 
 .lado-a-lado {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
 }
 
-.copyright {
+.lado-a-lado div {
+  min-width: 200px;
+}
+
+.lado-a-lado h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+.lado-a-lado ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lado-a-lado li {
+  margin: 0.3rem 0;
+}
+
+.curso p {
+  margin: 0.3rem 0;
   font-style: italic;
 }
 
-.logo{
-  width: 15rem;
-  height: auto;
-  border-radius: 50%;
+/* Modo Escuro */
+body.modo-escuro footer {
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+body.modo-escuro footer a {
+  color: #e0e0e0;
+}
+
+body.modo-escuro footer a:hover {
+  color: #e0e0e0;
+  text-decoration: underline;
+}
+
+body.modo-escuro .lado-a-lado h3 {
+  color: #e0e0e0;
 }
