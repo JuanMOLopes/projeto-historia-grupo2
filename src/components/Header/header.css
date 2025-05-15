@@ -1,0 +1,20 @@
+/* Estilo do header */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  background-color: rgb(215, 9, 9);
+  margin: 10px auto 5px auto; /* Centraliza horizontalmente */
+  height: 15vh;
+  border-radius: 20px;
+  filter: opacity(85%);
+}
+
+header h1 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
