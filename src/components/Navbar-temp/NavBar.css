@@ -8,6 +8,7 @@ nav {
   padding: 1rem 2rem;
   background-color: #e0e0e0;
   min-height: 15vh;
+  transition: background-color 0.3s;
 }
 
 nav a {

@@ -6,7 +6,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: #e0e0e0;
-  height: 15vh;
+  transition: background-color 0.3s;
 }
 
 header h1 {
@@ -15,7 +15,20 @@ header h1 {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+header a {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: -40rem;
+}
+
+header img {
+  width: 150px;
+  height: auto;
+  filter: drop-shadow(0 0 5px #e0e0e0);
 }
 
 /* Modo Escuro */

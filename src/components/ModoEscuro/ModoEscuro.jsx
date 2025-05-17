@@ -30,7 +30,7 @@ function ModoEscuro() {
       onClick={() => setModoEscuro(!modoEscuro)}
     >
       {/* se o estado for true, exibe o ícone de sol, caso contrário, exibe o ícone de lua */}
-      {modoEscuro ? "☀️" : "🌙"}
+      {modoEscuro ? "☀︎" : "⏾"}
     </button>
   );
 }

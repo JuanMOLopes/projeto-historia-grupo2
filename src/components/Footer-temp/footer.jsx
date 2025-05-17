@@ -1,4 +1,5 @@
 import "./Footer.css";
+import LogoGrupo from "/logo-grupo.png";
 
 function Footer() {
   return (
@@ -27,6 +28,9 @@ function Footer() {
             <li>Lucas Aguiar Pereira Marin</li>
             <li>Zayra Alice França</li>
           </ul>
+        </div>
+        <div>
+          <img src={LogoGrupo} alt="" className="logo" />
         </div>
       </div>
       <div className="curso">
