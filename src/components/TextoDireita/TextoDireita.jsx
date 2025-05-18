@@ -10,9 +10,9 @@ function TextoDireita(props) {
   const [curtidas, setCurtidas] = useState(() => {
     // pega a lista de favoritos do localStorage, se não existir, cria uma lista vazia
     const listaFavoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
-    // verifica na lista de favoritos onde o titulo salvo é igual ao titulo do props
+    // verifica na lista de favoritos onde o texto salvo é igual ao texto do props
     const conteudo = listaFavoritos.find(
-      (listaFavoritos) => listaFavoritos.titulo === props.titulo
+      (listaFavoritos) => listaFavoritos.texto === props.texto
     );
     // se encontrar o conteudo na lista, retorna as curtidas, senão inicia como 0
     return conteudo ? conteudo.curtidas : 0;
@@ -32,7 +32,7 @@ function TextoDireita(props) {
 
     // encontra o index do item clicado na lista de favoritos
     const index = listaFavoritos.findIndex(
-      (listaFavoritos) => listaFavoritos.titulo === props.titulo
+      (listaFavoritos) => listaFavoritos.texto === props.texto
     );
     console.log(index);
 

@@ -6,6 +6,8 @@ function Home() {
   return (
     <>
       <Header titulo="Cicatrizes do Tempo" />
+      <TextoDireita titulo="Teste" texto="abcd"/>
+      <TextoDireita titulo="Teste" texto="xyz"/>
       <Footer />
     </>
   );
