@@ -63,12 +63,12 @@ function TextoDireita(props) {
   return (
     <>
       <div className="container">
+        <div className="imagem-esquerda">
+          <img src={props.imagem} alt="" />
+        </div>
         <div className="texto-direita">
           <h2>{props.titulo}</h2>
           <p>{props.texto}</p>
-        </div>
-        <div className="imagem-esquerda">
-          <img src={props.imagem} alt="" />
         </div>
       </div>
 

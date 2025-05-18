@@ -1,7 +1,7 @@
 import "./TextoEsquerda.css";
 import { useState, useEffect } from "react";
 
-function TextoDireita(props) {
+function TextoEsquerda(props) {
   const [favoritos, setFavoritos] = useState(() => {
     // pega a lista de favoritos do localStorage, se não existir, inicia como uma lista vazia
     return JSON.parse(localStorage.getItem("favoritos")) || [];
@@ -63,11 +63,11 @@ function TextoDireita(props) {
   return (
     <>
       <div className="container">
-        <div className="texto-direita">
+        <div className="texto-esquerda">
           <h2>{props.titulo}</h2>
           <p>{props.texto}</p>
         </div>
-        <div className="imagem-esquerda">
+        <div className="imagem-direita">
           <img src={props.imagem} alt="" />
         </div>
       </div>
@@ -85,4 +85,4 @@ function TextoDireita(props) {
   );
 }
 
-export default TextoDireita;
+export default TextoEsquerda;
