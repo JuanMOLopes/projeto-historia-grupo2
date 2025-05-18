@@ -2,6 +2,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
 import TextoDireita from "../components/TextoDireita/TextoDireita";
+import TextoWikipedia from "../components/TextoWikipedia/TextoWikipedia";
 
 function RevolucaoRussa() {
   return (
@@ -10,7 +11,7 @@ function RevolucaoRussa() {
 
       <div className="conteudo">
         <div className="secao-resumo-wikipedia">
-          
+          <TextoWikipedia tema="Revolução Russa de 1917" />
         </div>
 
         <div className="secao-video">
