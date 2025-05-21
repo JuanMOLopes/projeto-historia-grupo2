@@ -1,7 +1,11 @@
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+
 function Grupo() {
   return (
     <>
-      <h1>Teste</h1>
+      <Header titulo="Grupo 2" />
+      <Footer />
     </>
   );
 }
