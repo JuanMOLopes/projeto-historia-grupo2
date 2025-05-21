@@ -7,9 +7,37 @@ body.modo-escuro {
   background-color: #1b3131;
 }
 
+.Container-grp2{
+  background: rgba(245, 245, 245, 0.85);
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  padding: 40px 32px 48px 32px;
+  margin: 40px auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  color: #222;
+  gap: 20px;
+}
+
+.Grupo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 45vw;
+  height: auto;
+  border-radius: 20px;
+  border: 2px solid #444;
+}
+
 /* Homepage */
 .container-home {
-  background: rgba(245, 245, 245, 0.85); /* branco acinzentado com transparência */
+  background: rgba(245, 245, 245, 0.85);
   border-radius: 18px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.10);
   padding: 40px 32px 48px 32px;
@@ -130,7 +158,13 @@ body.modo-escuro {
 }
 
 /* Estilos para modo escuro */
-body.modo-escuro .container-home {
+body.modo-escuro .container-home  {
+  background: #1b3131;
+  color: #f1f1f1;
+  box-shadow: 0 2px 16px rgba(255, 255, 255, 0.25);
+}
+
+body.modo-escuro .Container-grp2 {
   background: #1b3131;
   color: #f1f1f1;
   box-shadow: 0 2px 16px rgba(255, 255, 255, 0.25);
@@ -183,6 +217,44 @@ body.modo-escuro .favoritos p:last-child {
 
 /* Responsividade */
 @media (max-width: 1023px) {
+  .Container-grp2,
+  .container-home {
+    padding: 5vw 3vw 6vw 3vw;
+    margin: 4vw auto;
+    max-width: 98vw;
+    width: 98vw;
+  }
+  .Grupo {
+    width: 80vw;
+    min-width: 180px;
+  }
+  .Lado-a-lado {
+    margin-left: 2vw;
+    margin-top: 3vw;
+  }
+  .container-home p,
+  .container-home p:last-child {
+    max-width: 90vw;
+    margin-left: 2vw;
+  }
+  .favoritos {
+    padding: 24px 2vw;
+    gap: 18px;
+  }
+  .favoritos > div {
+    max-width: 96vw;
+    padding: 18px 8px;
+  }
+  .img-home {
+    width: 90px;
+    height: 90px;
+    margin-right: 14px;
+    margin-bottom: 12px;
+    transform: translateY(-10px);
+  }
+  .container-home h1 {
+    font-size: 1.3rem;
+  }
   iframe {
     width: 100%;
     height: 250px;
