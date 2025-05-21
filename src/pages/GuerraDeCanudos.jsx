@@ -19,7 +19,7 @@ function GuerraDeCanudos() {
           <iframe
             width="100%"
             height="500"
-            src="https://www.youtube.com/watch?v=yWWOgDjYuwc"
+            src="https://youtu.be/yWWOgDjYuwc?si=IvYAbS6vjhgvgS-a"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -51,7 +51,7 @@ Em meio a este contexto, surgiu Antônio Conselheiro, um líder religioso que re
             titulo="Consequências"
             texto="Canudos evidenciou a violência do Estado contra os mais pobres e também evidenciou a enorme distância entre o Brasil do litoral urbano e o sertão miserável. Este conflito foi responsável por deixar marcas profundas na história do Brasil e foi retratado em obras como “Os Sertões”, de Euclides da Cunha, como um símbolo entre civilização, miséria e barbaridade.
 "
-            imagem="https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/4860/P001FBAC65.jpg.jpg?sequence=2&isAllowed=y"
+            imagem="https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/guerra-canudos.jpg"
           />
         </div>
       </div>
