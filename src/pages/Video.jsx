@@ -11,7 +11,7 @@ function Vídeo() {
       <iframe
         width="100%"
         height="500"
-        src="https://www.youtube.com/embed/wN-mZtbX2Pg?si=X3PG9YrLU3u8JrsC"
+        src="https://www.youtube.com/embed/4xnsmyI5KMQ?si=6kZ1lcTFpvVbEWEa"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

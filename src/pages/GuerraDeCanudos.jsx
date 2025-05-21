@@ -19,7 +19,7 @@ function GuerraDeCanudos() {
           <iframe
             width="100%"
             height="500"
-            src="https://youtu.be/yWWOgDjYuwc?si=IvYAbS6vjhgvgS-a"
+            src="https://www.youtube.com/embed/69MTadaKjWk?si=wZQewr8OspI7M1p1"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
