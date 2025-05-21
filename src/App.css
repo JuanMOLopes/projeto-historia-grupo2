@@ -4,7 +4,7 @@ body {
 }
 
 body.modo-escuro {
-  background-color: #212121;
+  background-color: #1b3131;
 }
 
 /* Homepage */
@@ -19,6 +19,7 @@ body.modo-escuro {
   flex-direction: column;
   align-items: flex-start;
   position: relative;
+  color: #222;
 }
 
 .img-home {
@@ -130,9 +131,9 @@ body.modo-escuro {
 
 /* Estilos para modo escuro */
 body.modo-escuro .container-home {
-  background: rgba(34, 34, 34, 0.92);
+  background: #1b3131;
   color: #f1f1f1;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 16px rgba(255, 255, 255, 0.25);
 }
 
 body.modo-escuro .container-home h1 {
@@ -148,16 +149,16 @@ body.modo-escuro .container-home p:last-child {
 }
 
 body.modo-escuro .img-home {
-  background: #444;
+  background: #1b3131;
   box-shadow: 0 2px 16px rgba(0,0,0,0.18);
 }
 
 body.modo-escuro .favoritos {
-  background: #232323;
+  background: #1b3131;
 }
 
 body.modo-escuro .favoritos > div {
-  background: #181818;
+  background: #1b3131;
   box-shadow: 0 4px 24px rgba(0,0,0,0.30);
 }
 
