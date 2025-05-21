@@ -11,11 +11,11 @@ function Home() {
         <h1>Bem-vindo ao nosso site!</h1>
         
         <div className="Lado-a-lado">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quae deserunt quisquam optio molestiae facilis eveniet debitis reiciendis dicta id fugit dolore vero possimus, veritatis maxime. Dolores perferendis laudantium quidem?</p>
+        <p>Este site é um projeto de integração SESI - SENAI com o objetivo de aplicar conceitos desenvolvidos ao longo do curso de Análise e Desenvolvimento de sistemas, por meio da construção de um site usando Vite (React), e API da Wikipédia, para exibição de conteúdos estudados na aula de história juntamente com a professora Julia Milani. </p>
         <img src="../../public/logo-grupo.png" alt="img" className="img-home"/>
         </div>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellendus cum vel deserunt sint nesciunt. Expedita dolorum ipsam corrupti voluptatum, veritatis iure autem dolores tempora ea inventore, exercitationem aperiam voluptate?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta necessitatibus repudiandae facere eaque magnam dolorum iure hic, dolor architecto perspiciatis totam porro vel minima deleniti nam magni, aliquam voluptas quidem.</p>
+        <p>Aqui você aprenderá sobre diversos conteúdos históricos e interessantes. Então, aproveite e venha se tornar um amante de história conosco!! 📚 </p>
         </div>
       <Footer />
     </>
