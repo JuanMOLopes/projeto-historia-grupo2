@@ -7,6 +7,7 @@ header {
   justify-content: space-between;
   background-color: #e0e0e0;
   transition: background-color 0.3s;
+
 }
 
 header h1 {
@@ -32,7 +33,7 @@ header img {
 
 /* Modo Escuro */
 body.modo-escuro header {
-  background-color: #333;
+  background-color: #152828;
 }
 
 body.modo-escuro header h1 {
