@@ -7,6 +7,67 @@ body.modo-escuro {
   background-color: #212121;
 }
 
+/* Página de favoritos */
+.favoritos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  padding: 40px;
+  background: #f7f7f7;
+  min-height: 60vh;
+}
+
+.favoritos > div {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  padding: 24px 20px;
+  max-width: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+
+.favoritos > div:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+
+
+.favoritos h2 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #2d2d2d;
+  text-align: center;
+}
+
+.favoritos p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.favoritos img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  border: 3px solid #e0e0e0;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.favoritos p:last-child {
+  font-weight: bold;
+  color: #e67e22;
+  margin-top: 8px;
+}
+
+
 /* Responsividade */
 @media (max-width: 1023px) {
   iframe {
