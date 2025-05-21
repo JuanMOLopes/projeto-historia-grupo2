@@ -2,7 +2,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import Grupo from "../../public/logo-grupo.png"
 
-function Grupo() {
+function grupo() {
   return (
     <>
       <Header titulo="Grupo 2" />
@@ -21,4 +21,4 @@ function Grupo() {
     </>
   );
 }
-export default Grupo;
+export default grupo;
