@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 
 function TextoWikipedia(props) {
   const [conteudo, setConteudo] = useState("");
+  const [imagem, setImagem] = useState("");
   const [erro, setErro] = useState("");
 
   useEffect(() => {
@@ -30,6 +31,9 @@ function TextoWikipedia(props) {
 
         // pegamos o conteúdo do resumo e colocamos no estado Conteudo
         setConteudo(dados.extract);
+
+        //pegamos a url da imagem e colocamos no estado Imagem
+        setImagem(dados.originalimage.source);
       } catch (erro) {
         // se o try der erro, pegamos o erro e colocamos no estado Erro
         // geralmente é quando esta sem internet
@@ -51,7 +55,10 @@ function TextoWikipedia(props) {
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wikipedia-logo-v2-en.svg/640px-Wikipedia-logo-v2-en.svg.png"
         alt=""
       />
-      <p>{conteudo}</p>
+      <div className="conteudo-wikipedia">
+        <p>{conteudo}</p>
+        <img src={imagem} alt="" />
+      </div>
     </div>
   );
 }
