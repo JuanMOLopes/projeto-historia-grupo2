@@ -118,10 +118,12 @@ body.modo-escuro {
   flex-direction: column;
   align-items: center;
   transition: box-shadow 0.2s;
+  transition: ease 1s;
 }
 
 .favoritos > div:hover {
   box-shadow: 0 8px 32px #0000002e;
+  scale: 1.02;
 }
 
 
@@ -166,7 +168,7 @@ body.modo-escuro .container-home  {
 body.modo-escuro .Container-grp2 {
   background: #1b3131;
   color: #f1f1f1;
-  box-shadow: 0 2px 16px #ffffff40;
+  box-shadow: 0 2px 16px rgba(255, 255, 255, 0.25);
 }
 
 body.modo-escuro .container-home h1 {
@@ -192,7 +194,7 @@ body.modo-escuro .favoritos {
 
 body.modo-escuro .favoritos > div {
   background: #1b3131;
-  box-shadow: 0 4px 24px #0000004d;
+  box-shadow: 0 2px 16px rgba(255, 255, 255, 0.25);
 }
 
 body.modo-escuro .favoritos h2 {
