@@ -57,29 +57,31 @@ function TextoEsquerda(props) {
   // o use effect vai ser chamado sempre que o estado de curtidas mudar
   // o estado muda sempre que o botão de curtidas for clicado
   // porém, quando o componente for montado, o useEffect também vai ser chamado pq o estado de curtidas é inicializado com o valor do localStorage
-  // isso faz com que todos os itens sejam salvos no local storage, mesmo que a curtida seja 0 (não clicado) 
+  // isso faz com que todos os itens sejam salvos no local storage, mesmo que a curtida seja 0 (não clicado)
   // então clicar no botão apenas atualiza o valor da curtida dos itens já salvos
 
   return (
     <>
       <div className="container">
-        <div className="texto-esquerda">
-          <h2>{props.titulo}</h2>
-          <p>{props.texto}</p>
+        <div className="container-texto-esquerda">
+          <div className="texto-esquerda">
+            <h2>{props.titulo}</h2>
+            <p>{props.texto}</p>
+          </div>
+          <div className="imagem-direita">
+            <img src={props.imagem} alt="" />
+          </div>
         </div>
-        <div className="imagem-direita">
-          <img src={props.imagem} alt="" />
-        </div>
-      </div>
 
-      <div className="favoritar">
-        {/* quando o botão for clicado, aumenta a curtida em 1 */}
-        <button onClick={() => setCurtidas(curtidas + 1)}>👍</button>
-        {/* se a curtida for maior que 0, diminui a curtida em 1 */}
-        <button onClick={() => curtidas > 0 && setCurtidas(curtidas - 1)}>
-          👎
-        </button>
-        <p>{curtidas}</p>
+        <div className="favoritar">
+          {/* quando o botão for clicado, aumenta a curtida em 1 */}
+          <button onClick={() => setCurtidas(curtidas + 1)}>👍</button>
+          {/* se a curtida for maior que 0, diminui a curtida em 1 */}
+          <button onClick={() => curtidas > 0 && setCurtidas(curtidas - 1)}>
+            👎
+          </button>
+          <p>{curtidas}</p>
+        </div>
       </div>
     </>
   );

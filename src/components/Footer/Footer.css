@@ -87,7 +87,7 @@ body.modo-escuro .lado-a-lado h3 {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   #contato a {
     display: flex;
     flex-direction: column;

@@ -36,3 +36,11 @@ body.modo-escuro .TextoWikipedia {
 body.modo-escuro .TextoWikipedia p {
   border-top: 1px dashed #e0e0e0;
 }
+
+/* Responsividade */
+@media (max-width: 1023px) {
+  .TextoWikipedia {
+    text-align: center;
+    width: 80vw;
+  }
+}

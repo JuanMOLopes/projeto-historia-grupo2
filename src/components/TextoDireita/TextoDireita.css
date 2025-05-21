@@ -1,4 +1,12 @@
 .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-texto-direita {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -92,4 +100,25 @@ body.modo-escuro .favoritar {
 
 body.modo-escuro .favoritar p {
   color: #e0e0e0;
+}
+
+/* Responsividade */
+@media (max-width: 1023px) {
+  .container-texto-direita {
+    flex-direction: column-reverse;
+  }
+
+  .imagem-esquerda {
+    width: 100%;
+  }
+
+  .texto-direita {
+    text-align: center;
+  }
+
+  .favoritar {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 }
