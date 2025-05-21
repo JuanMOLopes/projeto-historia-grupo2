@@ -15,15 +15,31 @@
 }
 
 .TextoWikipedia p {
-  border-top: 1px dashed #333;
   padding-top: 1rem;
   margin: 0;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  text-align: justify;
 }
 
 .TextoWikipedia img {
   width: 150px;
   margin-bottom: 1.5rem;
   filter: drop-shadow(0 0 10px #e0e0e0);
+}
+
+.conteudo-wikipedia {
+  border-top: 1px dashed #333;
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+}
+
+.conteudo-wikipedia img {
+  padding-top: 1rem;
+  width: 20rem;
+  margin-right: 1rem;;
+  border-radius: 12px;
 }
 
 /* Modo Escuro */
