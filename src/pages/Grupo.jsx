@@ -1,7 +1,7 @@
 import "../App.css"
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-import GrupoImg from "../../public/Grupo2Foto.jpeg";
+import GrupoImg from "/Grupo2Foto.jpeg";
 
 function Grupo() {
   return (

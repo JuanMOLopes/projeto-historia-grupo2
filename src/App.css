@@ -37,9 +37,9 @@ body.modo-escuro {
 
 /* Homepage */
 .container-home {
-  background: rgba(245, 245, 245, 0.85);
+  background-color: #f5f5f5d9;
   border-radius: 18px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  box-shadow: 0 2px 12px #0000001a;
   padding: 40px 32px 48px 32px;
   margin: 40px auto;
   max-width: 900px;
@@ -59,9 +59,8 @@ body.modo-escuro {
   margin-bottom: 18px;
   margin-right: 28px;
   float: left;
-  /* Para alinhar um pouco acima do segundo texto */
   transform: translateY(-18px);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  box-shadow: 0 2px 12px #0000001a;
   background: #eaeaea;
 }
 
@@ -84,8 +83,8 @@ body.modo-escuro {
 .container-home p:last-child {
   margin-bottom: 0;
   font-size: 1.18rem;
-  max-width: 760px; /* mais longo que o primeiro */
-  margin-left: 40px; /* para alinhar um pouco à direita da imagem */
+  max-width: 760px; 
+  margin-left: 40px; 
   margin-top: 12px;
 }
 
@@ -111,7 +110,7 @@ body.modo-escuro {
 .favoritos > div {
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  box-shadow: 0 4px 16px #0000001a;
   padding: 24px 20px;
   max-width: 320px;
   width: 100%;
@@ -122,7 +121,7 @@ body.modo-escuro {
 }
 
 .favoritos > div:hover {
-  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  box-shadow: 0 8px 32px #0000002e;
 }
 
 
@@ -148,12 +147,12 @@ body.modo-escuro {
   margin-bottom: 12px;
   border: 3px solid #e0e0e0;
   object-fit: cover;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px #00000014;
 }
 
 .favoritos p:last-child {
   font-weight: bold;
-  color: #e67e22;
+  color: #007bff;
   margin-top: 8px;
 }
 
@@ -167,7 +166,7 @@ body.modo-escuro .container-home  {
 body.modo-escuro .Container-grp2 {
   background: #1b3131;
   color: #f1f1f1;
-  box-shadow: 0 2px 16px rgba(255, 255, 255, 0.25);
+  box-shadow: 0 2px 16px #ffffff40;
 }
 
 body.modo-escuro .container-home h1 {
@@ -184,7 +183,7 @@ body.modo-escuro .container-home p:last-child {
 
 body.modo-escuro .img-home {
   background: #1b3131;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+  box-shadow: 0 2px 16px #0000002e;
 }
 
 body.modo-escuro .favoritos {
@@ -193,7 +192,7 @@ body.modo-escuro .favoritos {
 
 body.modo-escuro .favoritos > div {
   background: #1b3131;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.30);
+  box-shadow: 0 4px 24px #0000004d;
 }
 
 body.modo-escuro .favoritos h2 {
@@ -206,14 +205,12 @@ body.modo-escuro .favoritos p {
 
 body.modo-escuro .favoritos img {
   border: 3px solid #333;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  box-shadow: 0 2px 12px #0000002e;
 }
 
 body.modo-escuro .favoritos p:last-child {
-  color: #f7b955;
+  color: #007bff;
 }
-
-
 
 /* Responsividade */
 @media (max-width: 1023px) {
