@@ -13,3 +13,6 @@ Este projeto tem como objetivo aplicar os conceitos desenvolvidos ao longo do cu
 - Juan Matheus de Oliveira Lopes
 - Lucas Aguiar Pereira Marin
 - Zayra Alice França
+
+## Link do site
+https://projeto-historia-grupo2.vercel.app/
