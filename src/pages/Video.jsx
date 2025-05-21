@@ -6,12 +6,12 @@ import TextoWikipedia from "../components/TextoWikipedia/TextoWikipedia";
 function Vídeo() {
   return (
     <>
-      <Header titulo="Vídeo - Fascismo Europeu" />
+      <Header titulo="Vídeo - Vídeo Temporário" />
 
       <iframe
         width="100%"
         height="500"
-        src="https://www.youtube.com/embed/4xnsmyI5KMQ?si=6kZ1lcTFpvVbEWEa"
+        src="https://www.youtube.com/embed/ex0kcWSDHNk?si=ehl4UiPpR0nVNLwk"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -19,7 +19,6 @@ function Vídeo() {
         allowfullscreen
       ></iframe>
 
-      <TextoWikipedia tema="Fascismo na Europa" />
       <Footer />
     </>
   );
