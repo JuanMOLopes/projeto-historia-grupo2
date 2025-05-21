@@ -38,3 +38,10 @@ body.modo-escuro header {
 body.modo-escuro header h1 {
   color: #e0e0e0;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+}

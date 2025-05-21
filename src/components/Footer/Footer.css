@@ -85,3 +85,12 @@ body.modo-escuro footer a:hover {
 body.modo-escuro .lado-a-lado h3 {
   color: #e0e0e0;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+  #contato a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

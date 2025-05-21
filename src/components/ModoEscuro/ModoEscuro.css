@@ -16,3 +16,10 @@ body.modo-escuro .btn-modo-escuro {
   background-color: transparent;
   color: #e0e0e0;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .btn-modo-escuro {
+    margin-right: 0;
+  }
+}
