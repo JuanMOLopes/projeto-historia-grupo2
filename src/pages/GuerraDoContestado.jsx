@@ -1,7 +1,6 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
-
 import TextoDireita from "../components/TextoDireita/TextoDireita";
 import TextoEsquerda from "../components/TextoEsquerda/TextoEsquerda";
 import TextoWikipedia from "../components/TextoWikipedia/TextoWikipedia";
@@ -11,23 +10,26 @@ function GuerraDoContestado() {
     <>
       <Header titulo="Guerra do Contestado" />
 
-
-<div className="conteudo">
+      <div className="conteudo">
         <div className="secao-resumo-wikipedia">
           <TextoWikipedia tema="Guerra do Contestado" />
         </div>
 
         <div className="secao-video">
-          <iframe width="560" height="315"
-           src="https://www.youtube.com/embed/0YHkAIG3d7k?si=EToroo3VjUKnWx51" title="YouTube video player" 
-           frameborder="0" 
-           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-            picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen></iframe>
+          <iframe
+              width="100%"
+            height="500"
+            src="https://www.youtube.com/embed/0YHkAIG3d7k?si=EToroo3VjUKnWx51"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+            picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
 
         <div className="secao-texto">
-
           <TextoEsquerda
             titulo="Antecedentes"
             texto="No século XIX, as ferrovias começaram a ser construídas no país, favorecendo o comércio entre os estados e o escoamento dos produtos para a exportação. A construção atraía um grande índice de trabalhadores,
@@ -50,8 +52,8 @@ Com a intensificação do conflito, o governo federal, em parceria com os estado
           />
           <TextoEsquerda
             titulo="Desfecho"
-            texto='A Guerra do Contestado chegou ao fim em 1916, após anos de confrontos entre os sertanejos e as forças do governo. Com o apoio dos estados do Paraná e de Santa Catarina, o governo federal mobilizou forças militares, equipadas com armamento moderno, para sufocar a resistência. A superioridade militar das tropas oficiais acabou prevalecendo, e os últimos focos de resistência foram eliminados. O conflito terminou com milhares de mortos, a prisão dos rebeldes e o controle total do Estado.
-'
+            texto="A Guerra do Contestado chegou ao fim em 1916, após anos de confrontos entre os sertanejos e as forças do governo. Com o apoio dos estados do Paraná e de Santa Catarina, o governo federal mobilizou forças militares, equipadas com armamento moderno, para sufocar a resistência. A superioridade militar das tropas oficiais acabou prevalecendo, e os últimos focos de resistência foram eliminados. O conflito terminou com milhares de mortos, a prisão dos rebeldes e o controle total do Estado.
+"
             imagem="https://s1.static.brasilescola.uol.com.br/be/2021/09/guerra-contestado.jpg"
           />
           <TextoDireita
@@ -62,9 +64,6 @@ Com a intensificação do conflito, o governo federal, em parceria com os estado
           />
         </div>
       </div>
-
-
-
 
       <Footer />
     </>
