@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../App.css"
+import "../App.css";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
@@ -18,6 +18,7 @@ function Favoritos() {
         {favoritos.map(
           (favorito) =>
             // para cada item, verifica se o número de curtidas dele é maior que 0, se for, exibe o item, se não, não exibe o item
+            // nome do &&: curto circuito
             favorito.curtidas > 0 && (
               <div>
                 <h2>{favorito.titulo}</h2>
