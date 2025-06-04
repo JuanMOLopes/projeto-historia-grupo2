@@ -1,17 +1,15 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
-import TextoWikipedia from "../components/TextoWikipedia/TextoWikipedia";
-
 function Vídeo() {
   return (
     <>
-      <Header titulo="Vídeo - Vídeo Temporário" />
+      <Header titulo="Vídeo - De Mussolini a Vargas: A Era das Ditaduras no Século XX | Cicatrizes do Tempo" />
 
       <iframe
         width="100%"
         height="500"
-        src="https://www.youtube.com/embed/ex0kcWSDHNk?si=ehl4UiPpR0nVNLwk"
+        src="https://www.youtube.com/embed/oZEGmDtycGs?si=mYxpuiv-RBXxbLCb"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
